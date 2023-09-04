@@ -1,9 +1,74 @@
 *{
+    margin: 0px;
+    padding: 0px;
+}
 
+body{
+    background-color: #f3e8ff;
+    font-family: 'Lilita One', cursive;
+    color:white;
+    
 }
 
 .container {
+    background-color: #7e22ce;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 50vw
+    max-width: 600px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.heading {
+    text-align: center;
+    padding: 2rem 0rem 1rem;
+}
+
+.description {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+label{
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    width: 500px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+button{
+    margin: auto;
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+
+
+table, tr, td, th{
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+table{
+    width: 520px;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center ;
+}
+
+caption{
+    margin-bottom:0.5rem ;
 }
