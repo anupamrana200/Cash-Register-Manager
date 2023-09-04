@@ -17,7 +17,6 @@ nextButton.addEventListener("click",function nextButtonHandler(){
 
 
 checkButton.addEventListener("click", function validateBillAndCashAmount(){
-    showChangeTable();
     const billInput = parseInt(billAmount.value);
     const cashInput = parseInt(cashGiven.value);
 
@@ -37,6 +36,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount(){
 
 
 function calculateChange(amount){
+    showChangeTable();
     for(let i=0; i<avialableNotes.length; i++){
         const numberOfNotes = Math.trunc(amount / avialableNotes[i]);
         amount = amount % avialableNotes[i];
